@@ -1,0 +1,97 @@
+@media (min-width: 48em) { /* 768px */
+
+	body {
+		font-size: 0.9375em; /*15px*/
+	}
+
+	.container {
+		width: 50em; 
+	}
+
+	.logo {
+		float: left;
+	}
+		.logo img {
+			height: 5em;
+		}
+	.nav {
+		float: right;
+	}
+	.mainmenu li {
+		float: left;
+		line-height: 5em;
+	}
+
+	.main > header {
+		display: block;
+	}
+
+	.content {
+		width: 75%;
+		float: left;
+	}
+	.byline {
+		width: 25%;
+		float: right;
+	}
+	.byline figcaption, .byline h3 {
+		text-align: center;
+	}
+
+	.share li {
+		width: 5em;
+		height: 5em;
+		display: list-item;
+	    margin-right: auto;
+	}
+	.byline figcaption {
+		padding-bottom: 1em;
+		margin-bottom: 1em;
+	}
+	.author {
+		width: auto;
+    	float: none;
+   		padding-right: 0;
+	}
+	.byline aside {
+	    float: none;
+	    padding-left: 0;
+	}
+}
+
+
+@media (min-width: 60em) { /* 960px */
+
+	body {
+		font-size: 1em; /*16px*/
+	}
+	.container {
+		width: 59em;  
+	}
+
+}
+
+@media (min-width: 75em) { /* 1200px */
+
+	body {
+		font-size: 1.125em; /*18px*/
+	}
+	.container {
+		width: 66em;  
+	}
+	.main > header {
+		height: 500px;
+		overflow: hidden;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
